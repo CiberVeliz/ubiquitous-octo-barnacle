@@ -128,6 +128,8 @@ function enviar_arbol()
 
     for(var i = 0; i < tabla.rows.length; i++)
     {
+        msg += '1';
+
         for(var it = 0; it < tabla.rows.length; it++)
         {
             var color = tabla.rows[i].cells[it].style.background;
@@ -169,7 +171,7 @@ function enviar_arbol()
             }
         }
 
-        //msg += "\n";
+        msg += '1';
     }
 
     var req = new HttpClient();
